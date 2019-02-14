@@ -1,0 +1,39 @@
+# This file contains metadata for your plugin. Since 
+# version 2.0 of QGIS this is the proper way to supply 
+# information about a plugin. The old method of 
+# embedding metadata in __init__.py will 
+# is no longer supported since version 2.0.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=SocialActivity
+qgisMinimumVersion=3.0
+description=Plot Social Activity around a supplied point
+version=1.0
+author=Vincenzo Lanzaro - SimplySoftware.co
+email=vl@simplysoftware.co
+
+about=Plot Social Activity on a map around a supplied point. Please before to use the plugin provide your Twitter API Credentials in "Settings" panel. More info to gain your Twitter Access Tokens at "https://developer.twitter.com/en/docs/basics/authentication/guides/access-tokens.html"
+
+tracker=http://simplysoftware.co
+repository=http://simplysoftware.co
+# End of mandatory metadata
+
+# Recommended items:
+
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=python twitter social socialactivity social_activity
+
+homepage=http://simplysoftware.co
+category=Plugins
+icon=icon.png
+# experimental flag
+experimental=False
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
