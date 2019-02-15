@@ -15,7 +15,8 @@ Because of all that, I thought that was not enough, I added another feature :P
 - "Keyword - @Name - #Tag" is a powerful field with which you can define an argument, a subject, a place, or whatever is spoken in social networks to trace its geographic activity and propagation starting from a supplied point :D Be aware that "with great power comes great responsibility", so use it in a savvy manner ;)
 
 Why "Settings..."?
-- Well to make all that working, for each social network you'll need to gain you "API Credentials" or "API Access Tokens". At the moment "SocialActivity" plugin works with Twitter API reason why you'll see available just "Twitter Setting Page", but in future releases will be integrated also others social network. - More info to gain your "Twitter API Access Tokens" at "https://developer.twitter.com/en/docs/basics/authentication/guides/access-tokens.html"
+- Well to make all that working, for each social network you'll need to gain you "API Credentials" or "API Access Tokens". At the moment "SocialActivity" plugin works with Twitter API reason why you'll see available just "Twitter Setting Page", but in future releases will be integrated also others social network. 
+  - More info to gain your "Twitter API Access Tokens" at "https://developer.twitter.com/en/docs/basics/authentication/guides/access-tokens.html"
 
 Some info on "SocialActivity" plugin: 
 - "SocialActivity" at the moment use "geopy" library for it's geocode subservice. User, differently to other plugins, doesn't need to install any additional package because all is enclosed with plugin.
