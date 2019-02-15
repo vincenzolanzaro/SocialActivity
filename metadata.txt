@@ -9,15 +9,13 @@
 [general]
 name=SocialActivity
 qgisMinimumVersion=3.0
-description=Plot Social Activity around a supplied point
+description=SocialActivity is a plugin developed for QGIS platform, whose purpose is to plot social activities around a supplied point.
 version=1.0
 author=Vincenzo Lanzaro - SimplySoftware.co
 email=vl@simplysoftware.co
 
-about=Plot Social Activity on a map around a supplied point. Please before to use the plugin provide your Twitter API Credentials in "Settings" panel. More info to gain your Twitter Access Tokens at "https://developer.twitter.com/en/docs/basics/authentication/guides/access-tokens.html"
-
-tracker=http://simplysoftware.co
-repository=http://simplysoftware.co
+tracker=https://github.com/vincenzolanzaro/SocialActivity/issues
+repository=https://github.com/vincenzolanzaro/SocialActivity
 # End of mandatory metadata
 
 # Recommended items:
@@ -28,7 +26,7 @@ repository=http://simplysoftware.co
 # Tags are comma separated with spaces allowed
 tags=python twitter social socialactivity social_activity
 
-homepage=http://simplysoftware.co
+homepage=https://github.com/vincenzolanzaro/SocialActivity
 category=Plugins
 icon=icon.png
 # experimental flag
@@ -37,3 +35,20 @@ experimental=False
 # deprecated flag (applies to the whole plugin, not just a single version)
 deprecated=False
 
+# about
+about=The simple and clean interface gives all the features to retrieve geopoints and plot them on your map.
+	All you need to do is to point your favourite place on the map ( "SocialActivity" automatically will catch map coordinates using WGS84 standard) and click on "OK" button ;)
+	In two simple steps you are ready to go, but if you need a deeper customization, you'll find some interesting tools in the interface that will help you in that:
+	- "Max-Range" is useful to define a range around your supplied point, to retrieve all social activities inner that range
+	- "Num. Points" can be handy if you need to define your favourite number of geopoints to plot.
+	- "Real Points" flag is used to retrieve proper geographic coordinates from social activities. Keep in mind that just 2-4 percentage of all social activities have real geographic coordinates enclosed, reason why I thought that it was handy to have also geocoded points feature.
+	- "Decoded Points" flag is used to retrieve geocoded points starting from geographic info enclosed in the social activities analyzed. That means "city of birth", "home town", "visited place" and whatever found in the user's bio is geocoded in geographic coordinates to be plotted.
+	
+	Because of all that, I thought that was not enough, I added another feature :P
+	- "Keyword - @Name - #Tag" is a powerful field with which you can define an argument, a subject, a place, or whatever is spoken in social networks to trace its geographic activity and propagation starting from a supplied point :D Be aware that "with great power comes great responsibility", so use it in a savvy manner ;)
+	
+	Why "Settings..."?
+	- Well to make all that working, for each social network you'll need to gain you "API Credentials" or "API Access Tokens". At the moment "SocialActivity" plugin works with Twitter API reason why you'll see available just "Twitter Setting Page", but in future releases will be integrated also others social network. More info to gain your "Twitter API Access Tokens" at "https://developer.twitter.com/en/docs/basics/authentication/guides/access-tokens.html"
+	
+	Some info on "SocialActivity" plugin: 
+	- "SocialActivity" at the moment use "geopy" library for it's geocode subservice. User, differently to other plugins, doesn't need to install any additional package because all is enclosed with plugin.
