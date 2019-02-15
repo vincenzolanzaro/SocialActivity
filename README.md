@@ -20,4 +20,7 @@ Why "Settings..."?
 Some info on "SocialActivity" plugin: 
 - "SocialActivity" at the moment use "geopy" library for it's geocode subservice. User, differently to other plugins, doesn't need to install any additional package because all is enclosed with plugin.
 
+
+RESULTS:
+-------------------------------------------------------------------------------------------------------------------------------------
 ![Alt text](https://github.com/vincenzolanzaro/SocialActivity/raw/master/pictures/Screenshot-1.jpg?raw=true "SocialActivity results")
