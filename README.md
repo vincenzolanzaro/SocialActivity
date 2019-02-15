@@ -16,7 +16,7 @@ Because of all that, I thought that was not enough, I added another feature :P
 
 Why "Settings..."?
 - Well to make all that working, for each social network you'll need to gain you "API Credentials" or "API Access Tokens". At the moment "SocialActivity" plugin works with Twitter API reason why you'll see available just "Twitter Setting Page", but in future releases will be integrated also others social network.
--- More info to gain your "Twitter API Access Tokens" at "https://developer.twitter.com/en/docs/basics/authentication/guides/access-tokens.html"
+- - More info to gain your "Twitter API Access Tokens" at "https://developer.twitter.com/en/docs/basics/authentication/guides/access-tokens.html"
 
 Some info on "SocialActivity" plugin: 
 - "SocialActivity" at the moment use "geopy" library for it's geocode subservice. User, differently to other plugins, doesn't need to install any additional package because all is enclosed with plugin.
