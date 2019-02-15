@@ -9,7 +9,5 @@ In two simple steps you are ready to go, but if you need a deeper customization,
 - "Decoded Points" flag is used to retrieve geocoded points starting from geographic info enclosed in the social activities analized. That means "city of birth", "home town", "visited place" and whatever found in the user's bio is geocoded in geographic coordinates to be ploted.
 
 Because all that, I thought that was not enough, I added another feature :P 
-- "Keyword - @Name - #Tag" is a powerfull field with which you can define an argument, a subject, a place, or whatever is spoken in social networks to trace its geographic activity and propagation starting from a supplied point :D 
-Be aware that "with great power comes great responsibility", so use it in a savy manner ;)
-
+- "Keyword - @Name - #Tag" is a powerfull field with which you can define an argument, a subject, a place, or whatever is spoken in social networks to trace its geographic activity and propagation starting from a supplied point :D  Be aware that "with great power comes great responsibility", so use it in a savy manner ;)
 
