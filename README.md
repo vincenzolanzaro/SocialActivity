@@ -1,4 +1,7 @@
 # SocialActivity
+
+![Alt text](https://github.com/vincenzolanzaro/SocialActivity/raw/master/pictures/Screenshot-0.jpg?raw=true "SocialActivity settings")
+
 "SocialActivity" is a plugin developed for QGIS platform, whose purpose is to plot social activities around a supplied point.
 The simple and clean interface gives all the features to retrieve geopoints and plot them on your map. 
 All you need to do is to point your favourite place on the map ( "SocialActivity" automatically will catch map coordinates using WGS84 standard) and click on "OK" button ;) 
@@ -17,4 +20,4 @@ Why "Settings..."?
 Some info on "SocialActivity" plugin: 
 - "SocialActivity" at the moment use "geopy" library for it's geocode subservice. User, differently to other plugins, doesn't need to install any additional package because all is enclosed with plugin.
 
-![Alt text](https://github.com/vincenzolanzaro/SocialActivity/raw/master/pictures/Screenshot-0.jpg?raw=true "SocialActivity settings")
+![Alt text](https://github.com/vincenzolanzaro/SocialActivity/raw/master/pictures/Screenshot-1.jpg?raw=true "SocialActivity results")
